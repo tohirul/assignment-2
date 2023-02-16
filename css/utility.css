@@ -1,0 +1,79 @@
+/* ? This CSS is for Basic CSS and Common Styles */
+
+:root {
+	--theme: #ff900e;
+	--theme-bg: #fff4e7;
+	--theme-bg-light: #ff900e1a;
+
+	--fs-large: 64px;
+	--fs-medium: 45px;
+	--fs-normal: 20px;
+	--fs-small: 16px;
+
+	--txt-dark: #131313;
+	--txt-medium: #424242;
+	--txt-light: #727272;
+}
+
+/** Default Styles  */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-family: "Work Sans", sans-serif;
+	font-size: 100%;
+}
+body {
+	font-family: inherit;
+	width: 100%;
+}
+
+/** Common Element Styles */
+h2 {
+	color: var(--txt-dark);
+	font-size: var(--fs-medium);
+	line-height: 52px;
+}
+h3 {
+	margin: 1rem 0;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 23px;
+}
+p {
+	margin: 2rem 0;
+	color: var(--txt-light) !important;
+	font-size: var(--fs-small);
+}
+
+.theme-border {
+	border-left: 9px solid var(--theme);
+	padding-left: 2rem;
+}
+
+.w-100 {
+	width: 100%;
+}
+
+.container {
+	padding: 50px 240px;
+	margin: 0;
+}
+
+.btn {
+	min-width: 170px;
+	padding: 20px 18px;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	background: var(--theme);
+	color: white;
+
+	font-size: var(--fs-normal);
+	font-weight: 600;
+	line-height: 23px;
+}
