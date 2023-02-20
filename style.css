@@ -6,6 +6,7 @@
 @import url("./css/feature.css"); /** CSS for Feature Section is in this */
 @import url("./css/services.css"); /** CSS for Services Section is in this */
 @import url("./css/about.css"); /** CSS for About Section is in this */
+@import url("./css/sponsor.css"); /** CSS for Sponsor Section is in this */
 
 /** Google Font: Work Sans */
 @import url("https://fonts.googleapis.com/css2?family=Oxygen+Mono&family=Work+Sans:wght@300;400;500;600;700;800&display=swap");

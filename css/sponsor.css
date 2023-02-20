@@ -1,0 +1,21 @@
+.sponsors {
+	margin: 120px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.sponsor-detail {
+	width: 540px;
+	margin-bottom: 3rem;
+}
+
+.sponsor-container {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 6rem;
+}

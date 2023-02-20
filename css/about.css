@@ -1,10 +1,11 @@
 /* ? About Section Styling */
 .about {
-	padding: 30px 210px;
+	padding: 30px 240px;
 }
 .about-description {
 	width: 570px;
 	display: block;
+	margin-bottom: 4rem;
 }
 
 .achievements {
