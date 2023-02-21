@@ -25,5 +25,6 @@
 @media screen and (max-width: 480px) {
 	.sponsor-container {
 		flex-direction: column;
+		gap: 2rem;
 	}
 }
