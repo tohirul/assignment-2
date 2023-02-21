@@ -29,7 +29,7 @@
 	.feature {
 		width: 80%;
 		display: flex;
-		flex-direction: column-reverse;
+		flex-direction: column;
 		gap: 3rem;
 	}
 	.feature-teams {
