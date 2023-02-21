@@ -9,16 +9,30 @@
 
 /* ? Feature Teams Images */
 .feature-teams {
-	width: 720px;
+	max-width: 720px;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	gap: 2rem;
 }
 
 .feature-description {
-	width: 540px;
+	max-width: 540px;
 }
 
 .feature-description h2 {
 	font-weight: 500;
+}
+
+/* ? Feature Section Responsive Query */
+
+@media screen and (max-width: 480px) {
+	.feature {
+		width: 80%;
+		display: flex;
+		flex-direction: column-reverse;
+		gap: 3rem;
+	}
+	.feature-teams {
+		grid-template-columns: repeat(1, 1fr);
+	}
 }

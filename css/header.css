@@ -47,7 +47,7 @@
 }
 
 .banner-section .banner-description {
-	width: 860px;
+	max-width: 860px;
 }
 
 .banner-section .banner-description h1 {
@@ -58,3 +58,26 @@
 }
 
 /* ? Banner Styling Ends  */
+
+/* ? Responsive Header Section */
+
+@media screen and (max-width: 480px) {
+	.header {
+		padding: 1rem;
+		padding-bottom: 2rem;
+	}
+	.nav {
+		margin-bottom: 3rem;
+		flex-direction: column;
+	}
+	.nav h2 {
+		margin-top: 1rem;
+		margin-bottom: 2rem;
+	}
+	.nav ul {
+		gap: 3rem;
+	}
+	.banner-section .banner-description h1 {
+		font-size: var(--fs-medium);
+	}
+}

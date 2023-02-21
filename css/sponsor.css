@@ -8,7 +8,7 @@
 }
 
 .sponsor-detail {
-	width: 540px;
+	max-width: 540px;
 	margin-bottom: 3rem;
 }
 
@@ -18,4 +18,12 @@
 	align-items: center;
 	justify-content: center;
 	gap: 6rem;
+}
+
+/* ? Sponsors Section Responsive Query */
+
+@media screen and (max-width: 480px) {
+	.sponsor-container {
+		flex-direction: column;
+	}
 }
