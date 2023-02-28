@@ -71,11 +71,13 @@
 		flex-direction: column;
 	}
 	.nav h2 {
+		font-size: 32px;
 		margin-top: 1rem;
 		margin-bottom: 2rem;
 	}
 	.nav ul {
-		gap: 3rem;
+		flex-direction: column;
+		gap: 1rem;
 	}
 	.banner-section .banner-description h1 {
 		font-size: var(--fs-medium);

@@ -41,6 +41,10 @@
 	left: 0;
 	bottom: 0;
 }
+.architect > .btn > span {
+	font-size: 65px;
+	line-height: 70px;
+}
 
 @media screen and (max-width: 480px) {
 	.services {
@@ -57,5 +61,12 @@
 	}
 	.architect img {
 		width: 100%;
+	}
+	.architect > .btn {
+		width: 100%;
+		padding: 0.8rem;
+	}
+	.banner-section .banner-description h1 {
+		font-size: var(--fs-medium);
 	}
 }
